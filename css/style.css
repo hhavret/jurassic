@@ -1,0 +1,91 @@
+.navbar{
+  height: 0px;
+
+  display : flex; 
+  justify-content: space-between;
+}
+
+.logo{
+  background-image: url("../img/dinosaure.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+ text-align: center;
+}
+
+
+ul {
+
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.336);
+}
+
+li {
+  list-style-type: none;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display : flex; 
+  justify-content: space-between;
+}
+
+
+nav{
+  background-color: rgba(0, 0, 0,0.2) ;
+}
+
+.img{
+text-align: center;
+  
+}
+.entree{
+ text-align: center;
+
+
+}
+.footer{
+
+  background: black;
+}
+
+.menu_bas{
+text-align: center;
+}
+
+nav{
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  width: 100%;
+}
+nav ul{
+  display: flex;
+  justify-content: space-evenly;
+   font-size:22px;
+   list-style: none;
+}
+ul li a:hover{
+  padding: 30px;
+  border: 1px solid white;
+  border-bottom: none;
+  border-top: none;
+}
+ ul li a{
+   text-decoration: none;
+   text-transform: capitalize;
+   text-decoration: non;
+   color: #fff;
+}
+
+
+
+
+
